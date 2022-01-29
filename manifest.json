@@ -12,9 +12,7 @@
     "storage",
     "tabs",
     "activeTab",
-    "http://*/*", 
-    "https://*/*",
-    "scripting"
+   "scripting"
   ],
   "background": {
         "service_worker": "background/background.service_worker.js"
