@@ -1,9 +1,13 @@
 console.log("this is working");
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-  console.log(
-    sender.tab
-      ? "from a content script:" + sender.tab.url
-      : "from the extension"
-  );
-  if (request.greeting === "hello") sendResponse({ farewell: "goodbye" });
+  switch (request.message) {
+    case "data required":
+      sendResponse({ farewell: "data sent" });
+      break;
+    case "hello":
+      sendResponse({ farewell: "button clicked" });
+      break;
+    default:
+      break;
+  }
 });
