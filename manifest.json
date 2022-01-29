@@ -22,7 +22,7 @@
     "action":{
 "default_icon" : "icons/default_icon.png",
 "default_popup":"homePage/homepage.html",
-"default_title":"Example Extention"
+"default_title":"Logged Json Viewer"
     },
   "host_permissions": ["<all_urls>"]
 }
