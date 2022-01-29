@@ -20,7 +20,7 @@
         "service_worker": "background/background.service_worker.js"
     },
     "action":{
-"default_icon" : "icons/chess.png",
+"default_icon" : "icons/default_icon.png",
 "default_popup":"homePage/homepage.html",
 "default_title":"Example Extention"
     },
